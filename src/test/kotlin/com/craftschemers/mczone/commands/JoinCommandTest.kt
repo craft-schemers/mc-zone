@@ -7,7 +7,7 @@ class JoinCommandTest : BukkitTestCase() {
 
     @Test
     fun `when player sends join command, they are added to the game`() {
-
+        TODO("Not yet implemented")
     }
 
 }

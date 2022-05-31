@@ -5,7 +5,7 @@ import be.seeseemelk.mockbukkit.ServerMock
 import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.BeforeEach
 
-abstract class BukkitTestCase {
+class BukkitTestCase {
 
     lateinit var server: ServerMock
     lateinit var plugin: McZonePlugin
