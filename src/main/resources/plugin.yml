@@ -1,0 +1,10 @@
+name: todo
+main: todo
+version: todo
+commands:
+  mczone:
+    usage: /mczone
+    description: Main command
+  join:
+    usage: /join <game>
+    description: Join an MCZone game

@@ -18,7 +18,7 @@ repositories {
 dependencies {
     compileOnly(spigotApi)
 
-    testCompileOnly(spigotApi)
+    testImplementation("com.github.seeseemelk:MockBukkit-v1.18:2.2.0")
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
     testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
 }
@@ -29,6 +29,11 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "17"
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 bukkit {

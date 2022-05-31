@@ -1,0 +1,7 @@
+name: todo
+main: todo
+version: todo
+commands:
+  test:
+    usage: /test
+    description: test command
